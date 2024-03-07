@@ -1,9 +1,5 @@
 # Geospatial Raster and Vector Data
 
-I containerized the setup https://carpentries-incubator.github.io/geospatial-python/index.html for the Carpentries Incubator lesson about working with geospatial data in Jupyter Labs.
+I containerized the setup https://carpentries-incubator.github.io/geospatial-python/index.html for the Carpentries Incubator lesson for working with geospatial data in Jupyter Labs. Docker and bash are required.
 
-The Jupyterlab instance must be opened using the URL returned having run the docker commands in bash.
-
-## Prerequisites
-- docker
-- bash
+Access the Geospatial Jupyterlab on http://127.0.0.1:8888/ in your browser. You may have to enter the token at the bottom of `$ docker logs geospatial-lab`.
